@@ -233,7 +233,7 @@ config openclash 'config'
 	option en_mode 'fake-ip-mix'
 	option auto_update '1'
 	option cn_port '9090'
-	option dashboard_password '123456'
+	option dashboard_password 'W123456'
 	option dashboard_forward_ssl '0'
 	option rule_source '0'
 	option enable_custom_dns '1'
@@ -329,7 +329,7 @@ config openclash 'config'
 
 config config_subscribe
 	option enabled '1'
-	option name '红杏-自动'
+	option name '机场名称'
 	option address '【订阅地址复制并覆盖这里】'
 	option sub_ua 'Clash'
 	option sub_convert '1'
@@ -355,7 +355,7 @@ config config_subscribe
 
 config config_subscribe
 	option enabled '1'
-	option name '牛逼-自动'
+	option name '机场名称'
 	option address '【订阅地址复制并覆盖这里】'
 	option sub_ua 'clash.meta'
 	option sub_convert '1'
